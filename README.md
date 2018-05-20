@@ -18,6 +18,11 @@ Our objective is to scrape the following data from from http://www.wegottickets.
 1. bundle (v1.16.1)
 2. RSpec (v3.7)
 
+## Packages used
+1. HTTParty (to get the HTML pages)
+2. Nokogiri (to parse the HTML pages)
+3. Pry (to help with debugging)
+
 ## Installation steps
 1. Clone this repository
 1. Go to the root directory
