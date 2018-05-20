@@ -25,6 +25,7 @@ Our objective is to scrape the following data from from http://www.wegottickets.
 
 ## Run the code
 1. To run the code, run the command `ruby src/wegottickets_scraper.rb` in the root directory.
+2. The results should appear in `src/result.csv`. To modify this code, you can change the last line in `src/wegottickets_scraper.rb` (line 99) to specify the path to the output file and also how many pages you want to scrape.
 
 ## Running the tests
 Run the the command `rspec` in the root directory.
